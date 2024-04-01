@@ -8,10 +8,10 @@
     <style>
         /* Your CSS styles go here */
         body {
-            font-family: Arial, sans-serif;
-            padding-left: 5rem;
+            font-family: Arial, Helvetica, sans-serif;
             background-color: #DFF5FF;
             margin: 0rem;
+            color: #5356FF;;
 
         }
 
@@ -39,6 +39,7 @@
             display: flex;
             justify-content: space-between;
             flex-direction: row;
+            margin-bottom: 1rem;
         }
         .cont1{
         margin-right: 2rem;
@@ -48,6 +49,7 @@
         }
         .content-col {
             width: 80%;
+            margin-right: 3rem;
         }
         .facts-col {
             width: 20%;
@@ -56,6 +58,11 @@
             background-color: #5356FF;
             color:#DFF5FF;
             padding-top: 2rem;
+            margin-right: 3rem;
+        }
+        .row2{
+            display: flex;
+            flex-direction: column;
         }
     </style>
 </head>
@@ -63,29 +70,29 @@
     <!-- Your HTML content goes here -->
     
     <div class="container">
-       
+        <div class="facts-col">Exploring Prostitution</div>
     <div class="content-col">
         <div class="title">Unveiling the Shadows: A Comprehensive Examination of Prostitution</div>
         <div class="subtitle">Shedding Light on the Underground Trade: A Deep Dive into the Realities, Ramifications, and Remedies of Prostitution</div>
         
         <div class="content">
-            <div class="cont1"><img src="./Chart.png"/></div>
+            <div class="cont1"><img src="./img/Bar.PNG"/></div>
             <div class="cont2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
          </div>
-        <div class="content">
+        <div class="row2">
        
             <div class="cont2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-            <div class="cont1"><img src="./Chart.png"/></div>
+            <div class="cont1"> <iframe src="./prostitution_by_year.html" width="1000" height="1000" frameborder="0"></iframe></div>
         </div>
     <div class="content">
-        <div class="cont1"><img src="./Chart.png"/></div>
+        <div class="cont1"><iframe src="./heat_map.html" width="1000" height="1000" frameborder="0"></iframe></div>
         <div class="cont2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
     </div>
 </div>
-<div class="facts-col">Exploring Prostitution</div>
+
 </div>
 </body>
 </html>
